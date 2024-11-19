@@ -41,7 +41,7 @@ public class SocialUser {
     {
         return Objects.hash(id);
     }
-
+//used for bidirectional relationship
     public void setProfile(SocialProfile socialProfile) {
         this.profile = socialProfile;
         if(socialProfile!=null)
